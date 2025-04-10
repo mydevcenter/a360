@@ -13,7 +13,7 @@
       STORAGE_ALLOWED_LOCATIONS = ('s3://demos-sf-2025/demodata/*')
    
 ## Data sources
-https://www.kaggle.com/c/nyc-taxi-trip-duration
+https://www.kaggle.com/c/nyc-taxi-trip-duration \
 https://www.kaggle.com/mathijs/weather-data-in-new-york-city-2016, additional data used for cleaning
 
 ## Repository structure

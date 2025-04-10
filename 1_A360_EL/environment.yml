@@ -1,1 +1,8 @@
-
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - snowflake=*
+stage_path: "s3://demos-sf-2025/demodata/"
+train_file: "@S3_STAGE_TAXI/demodata.csv"
+weather_file: "@S3_STAGE_TAXI/weather.csv"

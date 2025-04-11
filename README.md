@@ -18,12 +18,24 @@ https://www.kaggle.com/mathijs/weather-data-in-new-york-city-2016, additional da
 
 ## Repository structure
 1_A360_EL - Jupyter Notebook for loading \
-2_A360_T - Jupyter Notebook for cleaning. \  
+2_A360_T - Jupyter Notebook for cleaning \  
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reused the code shared by: https://github.com/justin-hj-kim/NYCtaxi_data_science/blob/master/notebooks/Taxi_Data_ETL.ipynb \
 3_A360_Analysis - Jupyter Notebook with simple analysis / visualizations
 
 
 ## Analysis / charts
+
+### Analysis
+1. There are two service providers, with Vendor ID 1 and 2. #2 owns 65% of the market. Augmenting the data with the vendor information may be helpful
+2. Passenger count and trip duration are key measures that seem to correlate with revenue and utilization, importand business KPIs
+3. Most of the trips occured in Manhattan area (see the heat map below, credit to https://github.com/justin-hj-kim/NYCtaxi_data_science/blob/master/README.md). Further analysis of the geospacial data may be complete to explore vehicle utilization opportunities
+4. Taxi utilization distribution for time of the day, week or specific public events may be analyzed (the data set is limited to 7 months)
+5. The vendor may analyze data from competetive intelligence perspective to explore better practices patterns of the competition 
+
+![image](https://github.com/user-attachments/assets/50da79a2-d8d5-4604-8cd2-fd0b7f49b2b5)
+
+
+### Charts
 
 ![image](https://github.com/user-attachments/assets/2e1ad47b-3d5c-4bbf-acbb-c148f3915ecd)
 

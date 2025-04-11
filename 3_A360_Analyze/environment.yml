@@ -4,5 +4,6 @@ channels:
 dependencies:
   - ipyleaflet=*
   - matplotlib=*
+  - pandas=*
   - scipy=*
   - seaborn=*

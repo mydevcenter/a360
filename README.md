@@ -45,6 +45,9 @@ https://www.kaggle.com/mathijs/weather-data-in-new-york-city-2016, additional da
 
 ![image](https://github.com/user-attachments/assets/1243625c-519b-47b2-a1cf-240a5fd29f29)
 
+![image](https://github.com/user-attachments/assets/2ed7cf66-44c3-47cf-a9df-f86e0a296100)
+
+
 
 
 

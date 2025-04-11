@@ -2,7 +2,12 @@ name: app_environment
 channels:
   - snowflake
 dependencies:
+  - pyaml=*
   - snowflake=*
+  - snowflake-ml-python=*
+  - snowflake-snowpark-python=*
+  - snowflake.core=*
 stage_path: "s3://demos-sf-2025/demodata/"
 train_file: "@S3_STAGE_TAXI/demodata.csv"
+test_file: "@S3_STAGE_TAXI/test.csv"
 weather_file: "@S3_STAGE_TAXI/weather.csv"
